@@ -8,10 +8,8 @@ if (btn) {
     const boxes = document.querySelectorAll(".grandbox .b");
     boxes.forEach((el, idx) => {
       if (idx === a - 1) {
-        el.setAttribute("data-color", "active");
         el.classList.add("active");
       } else {
-        el.removeAttribute("data-color");
         el.classList.remove("active");
       }
     });
