@@ -2,7 +2,7 @@ const btn = document.querySelector(".randomize");
 const game1 =document.querySelector(".reaction-game");
 
 game1.addEventListener("click",function(){
-  window.open("reaction.html","_black");
+  window.location.href ="reaction.html";
 })
 
 if (btn) {

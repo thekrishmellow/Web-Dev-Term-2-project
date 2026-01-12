@@ -4,7 +4,7 @@ const lights = document.querySelectorAll(".g");
 const statusText = document.querySelector(".status");
 const currentSpan = document.querySelector(".crt");
 const recordSpan = document.querySelector(".lrt");
-const btn =document.querySelector(".buto");
+
 let startTime = null;
 let timeoutId = null;
 let isRunning = false;
@@ -57,7 +57,3 @@ stopBtn.addEventListener("click", () => {
 });
 
 setRed();
-
-btn.addEventListener("click",function(){
-    window.history.back();
-})
