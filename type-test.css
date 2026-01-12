@@ -109,3 +109,11 @@ button:hover {
 button:active {
   transform: translateY(1px);
 }
+
+.buto {
+  display: block;
+  justify-self: center;
+  align-self: end;
+  grid-row: 6;
+  margin: 8px 0 0 0;
+}

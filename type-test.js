@@ -77,3 +77,9 @@ restartBtn.addEventListener("click", () => {
   startTime = null;
   loadSentence();
 });
+
+
+const btn =document.querySelector(".buto");
+btn.addEventListener("click",function(){
+    window.history.back();
+})
