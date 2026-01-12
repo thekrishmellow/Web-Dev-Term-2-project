@@ -1,8 +1,16 @@
 const btn = document.querySelector(".randomize");
 const game1 =document.querySelector(".reaction-game");
+const game2 =document.querySelector(".guessno-game");
+const game3 =document.querySelector(".target-game");
 
 game1.addEventListener("click",function(){
   window.location.href ="reaction.html";
+})
+game2.addEventListener("click",function(){
+  window.location.href ="guess.html";
+})
+game3.addEventListener("click",function(){
+  window.location.href ="point.html";
 })
 
 if (btn) {
