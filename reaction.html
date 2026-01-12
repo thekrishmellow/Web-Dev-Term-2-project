@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="reactiongame.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="text">
+            <h1>victory is a trophy</h1>
+            <p>only quickest click, can pick</p>
+        </div>
+        <div class="indicator">
+            <div class="g"></div>
+            <div class="g"></div>
+            <div class="g"></div>
+        </div>
+        <div class="display">
+            <div class="status">Ready</div>
+        </div>
+        <div class="start">
+            <button class="pushable starto">
+                <span class="shadow"></span>
+                <span class="edge"></span>
+                <span class="front"> Start </span>
+            </button>
+            <button class="pushable stopo">
+                <span class="shadow"></span>
+                <span class="edge"></span>
+                <span class="front"> Stop </span>
+            </button>
+        </div>
+        <div class="records">
+            <div class="high">Lowest Reaction time : <span class="lrt">-</span></div>
+            <div class="current">Current Reaction time : <span class="crt">-</span></div>
+        </div>
+        <br>
+    </div>
+    <script src="reactiongame.js"></script>
+</body>
+</html>

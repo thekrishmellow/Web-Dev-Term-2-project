@@ -1,4 +1,9 @@
 const btn = document.querySelector(".randomize");
+const game1 =document.querySelector(".reaction-game");
+
+game1.addEventListener("click",function(){
+  window.open("reaction.html","_black");
+})
 
 if (btn) {
   btn.addEventListener("click", function () {
