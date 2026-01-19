@@ -358,7 +358,9 @@ body{
     20px 32px 0px #000, 22px 32px 0px #000, 24px 32px 0px #000,
     26px 32px 0px #000, 28px 32px 0px #000, 30px 32px 0px #000,
     32px 32px 0px #000;
-  position: absolute;
+  display:flex;
+  justify-content: baseline;
+  align-items: left;
   transform: translate(0px);
   z-index: 3;
 }
