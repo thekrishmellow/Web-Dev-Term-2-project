@@ -364,3 +364,55 @@ body{
   transform: translate(0px);
   z-index: 3;
 }
+
+@media (max-width: 1024px) {
+  .set {
+    flex-direction: column;
+    gap: 2rem;
+    padding: 1.5rem;
+  }
+
+  .heading {
+    align-items: center;
+    text-align: center;
+  }
+
+  .grandbox {
+    width: min(90vw, 37rem);
+    height: min(90vw, 37rem);
+  }
+}
+
+@media (max-width: 600px) {
+  .set {
+    padding: 1rem;
+    gap: 1.5rem;
+  }
+
+  .heading {
+    gap: 0.75rem;
+  }
+
+  .heading h1 {
+    font-size: 1.1rem;
+    line-height: 1.3;
+  }
+
+  p {
+    font-size: 1.25rem;
+  }
+
+  .grandbox {
+    width: 92vw;
+    height: 92vw;
+    gap: 0.75rem;
+    padding: 0.75rem;
+    border-radius: 10px;
+  }
+
+  .randomize {
+    height: 56px;
+    width: 56px;
+    font-size: 10px;
+  }
+}
