@@ -11,18 +11,18 @@ body {
   font-style: normal;
 
 
-  color: #fff;
+  color: #000000;
 }
 
 .container {
   width: 90vw;
   max-width: 420px;
   min-height: 75vh;
-  background: rgb(0, 0, 0);
+  background: #fff;;
   padding: 25px;
-  border-radius: 15px;
+  border-radius: 10%;
   text-align: center;
-  border: 2px solid #ffd60a;
+  border: 2px solid green;
   box-shadow: 0 8px 30px rgba(0,0,0,0.8), 0 0 0 2px rgba(255,214,10,0.15);
   display: grid;
   grid-template-rows: auto auto 1fr auto auto;
@@ -44,16 +44,16 @@ h1 {
   border-radius: 10px;
   margin-bottom: 15px;
   line-height: 1.6;
-  border-left: 4px solid #ffd60a;
+  border-left: 4px solid green;
   color: #fff;
 }
 
 .correct {
-  color: #ffd60a;
+  color: green;
 }
 
 .wrong {
-  color: #e6e6e6;
+  color: red;
 }
 
 textarea {
@@ -62,7 +62,7 @@ textarea {
   font-size: 16px;
 
   border-radius: 12px;
-  border: 2px solid #ffd60a;
+  border: 2px solid green;
   outline: none;
   resize: none;
   color: #000000;
@@ -86,14 +86,14 @@ textarea:focus {
   display: flex;
   justify-content: space-between;
   margin-top: 12px;
-  color: #fff;
+  color: black;
   grid-row: 4;
 }
 
 button {
   margin-top: 15px;
   padding: 10px 20px;
-  background: #ffd60a;
+  background: green;
   border: none;
   border-radius: 24px;
   color: #000;
@@ -103,7 +103,7 @@ button {
 }
 
 button:hover {
-  filter: brightness(.95);
+  background-color: greenyellow;
 }
 
 button:active {
